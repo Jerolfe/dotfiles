@@ -1,0 +1,12 @@
+[user]
+	name = Jerolfe
+	email = jerolfe@proton.me
+[core]
+	editor = code --wait
+	autocrlf = input
+[diff]
+	tool = VSCode
+[difftool "VSCode"]
+	cmd = "code --wait --diff $LOCAL $REMOTE"
+[init]
+	defaultBranch = main
